@@ -1,10 +1,10 @@
 # DataVersioning
 Data and Model versioning for Iterative ML process
 
-DataSet:
+**_DataSet_**:
 The datasets consist of several medical predictor (independent) variables and one target (dependent) variable, Outcome. Independent variables include the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
-Columns:
+**_Columns_**:
 1) {**Name**:Pregnancies,**Data Type**:Numeric,**Description**:Number of times pregnant}
 2) {**Name**:Glucose,**Data Type**:Numeric,**Description**:Plasma glucose concentration a 2 hours in an oral glucose tolerance test}
 3) {**Name**:BloodPressure,**Data Type**:Numeric,**Description**:Diastolic blood pressure (mm Hg)}
