@@ -9,4 +9,3 @@ predictions = lr_object.predict(data)
 print(predictions)
 
 
-
