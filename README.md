@@ -17,7 +17,8 @@ Version information makes a revision of a dataset uniquely identifiable. Uniquen
 
 
 **Steps to setup DVC for data and model versioning**
-A) Project Setup with DVC and local cache(for Data and ML Model):
+
+*A) Project Setup with DVC and local cache(for Data and ML Model):*
 
 > pip install dvc
 
@@ -53,16 +54,16 @@ git add data/data_file.txt.dvc
 > git add data/data_file.txt.dvc
 
 
-After DVC initialization, a new directory .dvc will be created with config and .gitignore files and cache directory. 
-These files and directories are hidden from a user in general and a user does not interact with these files directly.
-The last command, git commit, puts .dvc/config and .dvc/.gitignore files under Git control.
+     After DVC initialization, a new directory .dvc will be created with config and .gitignore files and cache directory. 
+     These files and directories are hidden from a user in general and a user does not interact with these files directly.
+     The last command, git commit, puts .dvc/config and .dvc/.gitignore files under Git control.
 
-For more details please refer:
-https://dvc.org/doc/user-guide/dvc-files-and-directories
+     For more details please refer:
+     https://dvc.org/doc/user-guide/dvc-files-and-directories
 
 
 
-B) Project Setup with DVC and Remote storage(for Data and ML Model):
+*B) Project Setup with DVC and Remote storage(for Data and ML Model):*
 1) AWS CLI Configuration to access S3:
 
 > pip install awscli
