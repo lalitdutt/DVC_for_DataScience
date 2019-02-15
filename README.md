@@ -16,7 +16,7 @@ Scenario 2:
 Version information makes a revision of a dataset uniquely identifiable. Uniqueness can be used by data consumers to determine whether and how data has changed over time and to determine specifically which version of a dataset they are working with. Good data versioning enables consumers to understand if a newer version of a dataset is available. Explicit versioning allows for repeatability in research, enables comparisons, and prevents confusion. Using unique version numbers that follow a standardized approach can also set consumer expectations about how the versions differ. Intended outcome: Humans and software agents will easily be able to determine which version of a dataset they are working with.
 
 
-**Steps to setup DVC for data and model versioning**
+** # Steps to setup DVC for data and model versioning**
 
 *A) Project Setup with DVC and local cache(for Data and ML Model):*
 
